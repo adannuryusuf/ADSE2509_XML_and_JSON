@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Document prolog : contains the document tags and their types -->
+
+<!DOCTYPE mobiles SYSTEM "../dtd/mobiles.dtd" >
+<!-- Link to an external CSS file -->
+ <?xml-stylesheet href="../css/mobiles.css" type="text/css"?>
+<!-- End of document prolog -->
+
+<!-- mobiles library document -->
+<mobiles>
+    <mobile>
+        <company>Samsung</company>
+        <model type="camera">Galaxy S2x</model>
+        <price>Kes. 175,000</price>
+        <accessories>&sk;</accessories>
+    </mobile>
+    <mobile>
+        <company>OnePlus</company>
+        <model type="camera">OnePlus 12</model>
+        <price>Kes. 75,000</price>
+        <accessories>&sk;, &ch;</accessories>
+    </mobile>
+    <mobile>
+        <company>Nokia</company>
+        <model type="camera">X30</model>
+        <price>Kes. 65,500</price>
+        <accessories>&sk;, &hp;, &ch;</accessories>
+    </mobile>
+</mobiles>

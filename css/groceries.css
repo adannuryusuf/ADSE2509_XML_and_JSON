@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document to style the groceries_namespace.xml file */
+
+@namespace g "http://adse2509.co.ke/groceries";
+@namespace p "http://adse2509.co.ke/prices";
+
+g|groceries {
+    display: block;
+    font-family: 'Century Gothic', 'Courier New', Courier, monospace;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+g|item {
+    display: block;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #fff;
+}
+
+g|name {
+    font-weight: 700;
+    color: #3e5b57;
+}
+
+g|category::before{content: "Category: ";}
+g|category {
+    display: block;
+    font-style: italic;
+    color: #777;
+}
+
+g|quantity::before {content:"Quantity: "}
+g|quantity {
+    color: #000;
+}
+
+p|price 
+{
+    display: block;
+    margin-top: 8px;
+    padding: 5px;
+    background-color: #f0f8ff;
+}
+
+p|unit::before
+{
+   content:"Unit Price: ";
+   font-weight: bold; 
+   color: #333;
+}
+
+p|unit
+{
+    display: block;
+    color:#00509e;
+}
+
+p|total::before
+{
+    content:"Total: ";
+    font-weight: bold;
+    color:#333;
+}
+
+p|total
+{
+    display: block;
+    color: #c0392b;
+}
