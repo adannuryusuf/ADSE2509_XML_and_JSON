@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\xsl"
   ],
-  "SelectedNode": "\\xsl",
+  "SelectedNode": "\\xsl\\employee.xslt",
   "PreviewInSolutionExplorer": false
 }

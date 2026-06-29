@@ -14,7 +14,6 @@
 						<xs:element name="firstname" type="xs:string"/>
 						<xs:element name="lastname" type="xs:string"/>
 					</xs:sequence>
-					<xs:attribute name="id" type="xs:ID" use="required"/>
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
@@ -47,16 +46,5 @@
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
-		<xs:attribute name="isbn" type="xs:string" use="required">
 	</xs:complexType>
-	<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-	ROot element
-	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++	-->
-	<xs:element name="library">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="book" type="booktype" minOccurs="1" maxOccurs="unbounded">
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
 </xs:schema>

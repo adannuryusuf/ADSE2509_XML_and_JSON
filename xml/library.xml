@@ -16,11 +16,11 @@
 			<lastname>Mutindi</lastname>
 		</author>
 		<description>
-			This book is a beginner guide to xml<note>Update for XML 1.2</note>
+			This book is a beginner-friendly guide to XML.
+			<note>Update for XML 1.2</note>
 			<note>Includes xml schema exercises</note>
 		</description>
 	</book>
-
 	<book isbn="978-0-987548-32-1">
 		<title>Advanced XSD Concepts</title>
 		<publisher>
@@ -31,4 +31,5 @@
 			<firstname>Anne</firstname>
 			<lastname>Mutisya</lastname>
 		</author>
+	</book>
 </library>
